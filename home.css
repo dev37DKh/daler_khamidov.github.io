@@ -1,0 +1,92 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Светлый фон для контента */
+}
+
+header {
+    background-color: #4CAF50; /* Зеленый цвет для заголовка */
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для заголовка */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Центрирование меню */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; /* Увеличенный отступ между пунктами меню */
+}
+    
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Жирный шрифт для ссылок */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Золотой цвет при наведении */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px; /* Максимальная ширина контента */
+    margin: 20px auto; /* Центрирование контента */
+    background-color: white; /* Белый фон для контента */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для контента */
+}
+
+h2 {
+    color: #333; /* Темный цвет заголовка */
+    text-align: center; /* Центрирование заголовка */
+}
+
+img {
+    width: 50%; 
+    display: block; /* Устанавливаем блочный элемент */
+    margin: 0 auto; /* Центрируем изображение */
+    border-radius: 8px; /* Закругленные углы */
+    max-width: 100%; /* Ограничиваем максимальную ширину */
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Зеленый цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Сделаем текст на кнопке немного крупнее */
+    transition: background-color 0.3s ease; /* Плавный переход при наведении */
+}
+
+button:hover {
+    background-color: #45a049; /* Золотистый оттенок при наведении */
+}
+
+.language-buttons {
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: flex-start; /* Выравнивание кнопок по левому краю */
+    gap: 10px; /* Добавляем немного пространства между кнопками */
+    padding: 10px 20px; /* Немного отступов */
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4CAF50; /* Зеленый цвет для подвала */
+    color: white;
+    position: relative; /* Изменено на relative для правильного позиционирования */
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Отступ сверху для подвала */
+}
