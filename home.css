@@ -19,7 +19,7 @@ body::before {
     z-index: -1; /* Помещает слой позади контента */
 }
 header {
-    background-color: #4CAF50; /* Зеленый цвет для заголовка */
+    background-color: #adc2b1; /* Зеленый цвет для заголовка */
     color: white;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для заголовка */

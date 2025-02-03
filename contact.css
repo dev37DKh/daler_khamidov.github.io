@@ -10,7 +10,7 @@ body::before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 156%;
+    height: 158%;
     background-image: url(974427_2560x1440_desktop_hd_vincent_van_gogh_background_image.jpg);
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@ body::before {
     z-index: -1; /* Помещает слой позади контента */
 }
 header {
-    background-color: #4CAF50;
+    background-color: #adc2b1;
     color: white;
     padding: 15px 0;
     text-align: center;
